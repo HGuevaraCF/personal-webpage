@@ -1,3 +1,3 @@
 # Hector Guevara
 
-![link](.Assets\450_1000.jpg)
+![link](/Assets/450_1000.jpg)
