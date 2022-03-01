@@ -7,31 +7,76 @@
 
     <title>Reporte Interactivo</title>
     <link rel="stylesheet" href="Assets/styles/styles.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
     <header>
         <div class="head_image">
-            <div>
-                <section>
-                    <h1> REPORTE VEHIUCLAR</h1>
+            <div class="title">
+                <section class="reporte">
+                    <h1> REPORTE VEHICULAR</h1>
                 </section>
-                <section>
+                <section class="boton_pdf">
                     <button>Reporte en PDF</button>
                 </section>
             </div>
         </div>
-
     </header>
-    <section>
-
-    </section>
+    <div class="col-sm-12 resumen">
+        <div class="col-sm-8 resumen_izq">
+            <div class="col-sm-12 datos_vehiculo">
+                <div class="col-sm-6 vin">
+                    <div class="valor">
+                        <strong>No. de serie vehicular</strong>
+                        <h3>1GCDK14K5JZ227467</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 logo">
+                    <div class="valor">
+                        <table>
+                            <tr>
+                                <td>
+                                    <img class="logo_img" src="https://pruebasbeta.globalgbc.com/sites/default/files/styles/thumbnail/public/logos-fabricantes/Chevrolet.png?itok=rOBpHyDq">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span>
+                                        <b>CHEVROLET</b>
+                                        " P/U/SUB/BLAZER/TRAC/EN4 RUED 1988"
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 semaforos_izq"></div>
+            <div class="col-sm-6 semaforos_der"></div>
+        </div>
+        <div class="col-sm-4 resumen_der">
+            <h1>¿Cómo funciona el semáforo?</h1>
+            <p>Los colores del semáforo indican el nivel de riesgo detectado por CARFAX MX para cada segmento de la información.</p>
+            <ul>
+                <li>Riesgo alto</li>
+                <li>Riesgo Medio</li>
+                <li>Riego Bajo</li>
+            </ul>
+            <p>Para tomar la mejor decisión te recomendamos evaluar en conjunto los indicadores que muestran los semáforos.</p>
+        </div>
+    </div>
 
     <footer id="footer">
-        <ul class="social">
-          <li><a href="http://www.github.com/usernamehere">Github</a></li>
-        </ul>
+
     </footer>
 </body>
 

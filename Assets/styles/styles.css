@@ -1,0 +1,66 @@
+.head_image{
+    background-color: cornflowerblue;
+    background-image: url(https://pruebasbeta.globalgbc.com/sites/default/files/banner_1.png);
+    display: flex;
+    height: 220px;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    color: #333
+}
+
+button{
+    color: white;
+    font-weight: 700;
+    background: #037ac5;
+    border: 1px solid transparent!important;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+.title{
+    background-color:  rgb(255, 255, 255, .8);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10%;
+    margin-top: 6%;
+    width: 80%;
+}
+
+.reporte{
+    flex: auto;
+    padding-left: 8%;
+}
+
+.boton_pdf{
+    padding-right: 10%;
+}
+
+.resumen{
+    width: 80%!important;
+    margin-left: 10%;
+}
+.resumen_der{
+    background-color: #f9f9f9;
+}
+
+.logo_img{
+    /* vertical-align: middle; */
+    max-width: 85px;
+}
+
+.vin, .logo{
+    text-align: center;
+}
+
+.datos_vehiculo{
+    border-bottom: 1px solid #e2e2e2;
+}
