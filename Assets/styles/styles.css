@@ -5,10 +5,19 @@
     height: 220px;
 }
 
+body{
+    font-family: 'Montserrat'!important;
+}
+
 h1{
     font-size: 30px;
-    font-family: 'Montserrat';
     color: #333
+}
+
+h5{
+    font-size: 20px!important;
+    font-weight: bold!important;
+    text-rendering: optimizelegibility!important;
 }
 
 button{
@@ -44,12 +53,14 @@ button{
     padding-right: 10%;
 }
 
-.resumen{
+.resumen, .datos_reporte{
     width: 80%!important;
     margin-left: 10%;
 }
 .resumen_der{
     background-color: #f9f9f9;
+    height: 680px;
+    padding-top: 20px;
 }
 
 .logo_img{
@@ -63,4 +74,29 @@ button{
 
 .datos_vehiculo{
     border-bottom: 1px solid #e2e2e2;
+}
+.datos_reporte{
+    background-color: #f9f9f9;
+    border-top: 1px solid #e2e2e2;
+    text-align: center;
+    height: 50px;
+}
+
+.valor{
+    padding: 26px;
+    min-height: 150px;
+    max-height: 200px;
+}
+
+.semaforos_izq, .semaforos_der{
+    padding-top: 30px;
+}
+
+.semaforos_izq table tr td, .semaforos_der table tr td {
+    padding: 7px;
+    border-top: inherit;
+}
+.texto_resumen{
+    margin-top: 0px!important;
+    margin-bottom: 3px!important;
 }
