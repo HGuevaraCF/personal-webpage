@@ -20,7 +20,7 @@
 
 <body>
     <header>
-        <div class="head_image">
+        <div class="header_background" style="background-image: url(Assets/img/banner_1.png);">
             <div class="title">
                 <section class="reporte">
                     <h1> REPORTE VEHICULAR</h1>
@@ -36,7 +36,7 @@
             <div class="col-sm-12 datos_vehiculo">
                 <div class="col-sm-6 vin">
                     <div class="valor">
-                        <strong>No. de serie vehicular</strong>
+                        <strong class="azul">No. de serie vehicular:</strong>
                         <h3>1GCDK14K5JZ227467</h3>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                                 <td>
                                     <span>
                                         <b>CHEVROLET</b>
-                                        " P/U/SUB/BLAZER/TRAC/EN4 RUED 1988"
+                                        P/U/SUB/BLAZER/TRAC/EN4 RUED 1988
                                     </span>
                                 </td>
                             </tr>
@@ -134,21 +134,54 @@
             </div>
         </div>
         <div class="col-sm-4 resumen_der">
-            <h1>¿Cómo funciona el semáforo?</h1>
+            <h2>¿Cómo funciona el semáforo?</h2>
             <center>
                 <img class="semaforo" src="Assets\img\semaforo.png">
             </center>
             <p>Los colores del semáforo indican el nivel de riesgo detectado por CARFAX MX para cada segmento de la información.</p>
-            <ul>
-                <li>Riesgo alto</li>
-                <li>Riesgo Medio</li>
-                <li>Riego Bajo</li>
-            </ul>
+            <p class="riesgos">
+                <strong class="rojo">Rojo</strong>: Riesgo alto
+                <br>
+                <strong class="amarillo">Amarillo</strong>: Revisar detalladamente
+                <br>
+                <strong class="verde">Verde</strong>: Revisión
+                <br>
+            </p>
             <p>Para tomar la mejor decisión te recomendamos evaluar en conjunto los indicadores que muestran los semáforos.</p>
         </div>
     </div>
     <div class="col-sm-12 datos_reporte">
         <p class="datos">ID. de reporte: 66895357 | ID. de vehículo: 66895358 | Fecha y hora: 03/01/2022 - 14:13</p>
+    </div>
+    <div class=" col-sm-12 secciones_reporte">
+        <fieldset class="col-sm-12" id="repuve">
+            <legend>
+              <span class="fieldset-legend">
+                <img src="Assets\img\tab_verde.png" class="semaforo_seccion"/>
+                <img src="Assets\img\mexico.png" class="bandera_reporte"/>
+                <a class="fieldset-title" href="#">
+                  REPUVE
+                </a>
+                <span class="summary"></span>
+              </span>
+            </legend>
+            <div class="fieldset-wrapper">
+              <div class="encabezado_repuve">
+                <div class="valor">
+                    <p class="encabezado">
+                        Por sus siglas, el Registro Público Vehicular, es una Dirección General de la SESNSP, la cual, tiene como objetivo proporcionar certidumbre jurídica a personas que compren o vendan un vehículo a nivel nacional, así como dar seguimiento a posibles actos delictivos que involucren a vehículos mediante su identificación. Con el propósito de tener certidumbre sobre el origen, trayecto y destino de los vehículos en México.
+                    </p>
+                </div>
+              </div>
+              <div class="group-definitivo field-group-div view">
+                <div class="repuve_decod">
+                  <div class="valor">
+                      <!-- contenido view -->
+                  </div>
+                </div>
+              </div>
+            </div>
+        </fieldset>
     </div>
     
 

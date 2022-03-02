@@ -1,17 +1,30 @@
-.head_image{
-    background-color: cornflowerblue;
-    background-image: url(https://pruebasbeta.globalgbc.com/sites/default/files/banner_1.png);
+.header_background{
+    /* background-image: url(https://pruebasbeta.globalgbc.com/sites/default/files/banner_1.png); */
     display: flex;
     height: 220px;
 }
 
 body{
     font-family: 'Montserrat'!important;
+    background-image: url(https://pruebasbeta.globalgbc.com/sites/default/files/banner_4.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+}
+
+.col-sm-12{
+    padding-right: 0px!important;
+    padding-left: 0px!important;
 }
 
 h1{
     font-size: 30px;
     color: #333
+}
+
+h2{
+    color: #4a93ff!important;
+    font-size: 18px!important;
 }
 
 h5{
@@ -20,16 +33,38 @@ h5{
     text-rendering: optimizelegibility!important;
 }
 
+.rojo{
+    color: #f00;
+}
+
+.amarillo{
+    color: #eadb00;
+}
+
+.verde{
+    color: #008000;
+}
+
+.azul{
+    color: #007bf0;
+}
+
 button{
     color: white;
     font-weight: 700;
-    background: #037ac5;
-    border: 1px solid transparent!important;
+    background: rgba(74,147,272,1);
+    border: 1px solid #000000!important;
     border-radius: 4px;
     padding: 6px 12px;
     font-weight: normal;
     font-size: 12px;
     padding: 10px 20px;
+}
+
+.boton_pdf{
+    padding-right: 10%;
+    color: white;
+    font-weight: bold;
 }
 
 .title{
@@ -44,42 +79,55 @@ button{
     width: 80%;
 }
 
+.title h1{
+    font-size: 27px;
+    font-weight: bold!important;
+}
+
 .reporte{
     flex: auto;
     padding-left: 8%;
 }
 
-.boton_pdf{
-    padding-right: 10%;
-}
-
-.resumen, .datos_reporte{
-    width: 80%!important;
-    margin-left: 10%;
-}
-.resumen_der{
-    background-color: #f9f9f9;
-    height: 680px;
-    padding-top: 20px;
-}
-
 .logo_img{
-    /* vertical-align: middle; */
     max-width: 85px;
+    margin-bottom: 15px;
 }
 
 .vin, .logo{
     text-align: center;
 }
 
+.resumen, .datos_reporte{
+    width: 80%!important;
+    margin-left: 10%;
+}
+
+.resumen_der{
+    background-color: #f9f9f9;
+    height: 560px;
+    padding: 20px 3% 0px 3%!important;
+    font-size: 16px!important;
+    word-spacing: 3px!important;
+    font-weight: 300;
+}
+
+.resumen_izq{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 .datos_vehiculo{
     border-bottom: 1px solid #e2e2e2;
 }
+
 .datos_reporte{
     background-color: #f9f9f9;
     border-top: 1px solid #e2e2e2;
-    text-align: center;
-    height: 50px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .valor{
@@ -100,3 +148,93 @@ button{
     margin-top: 0px!important;
     margin-bottom: 3px!important;
 }
+
+.semaforos_izq table tr td img, .semaforos_der table tr td img{
+    max-width: 100%;
+}
+
+.semaforos{
+    height: 393px;
+}
+
+.icono_resumen{
+    width: 60px!important;
+}
+
+.resumen_bloque{
+    margin-bottom: 15px;
+}
+
+.resumen_der h2, .resumen_der center{
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+
+.resumen_der p{
+    text-align: justify;
+    margin-bottom: 32px!important;
+}
+
+.riesgos{
+    text-align: left!important;
+}
+
+.vin .valor h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.secciones_reporte{
+    margin-top: 30px;
+    width: 85%!important;
+    margin-left: 7%!important;
+    margin-bottom: 40px;
+}
+
+.secciones_reporte fieldset legend{
+    background-image: url(https://pruebasbeta.globalgbc.com/sites/default/files/fieldset_header.png);
+    background-color: inherit;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: inherit;
+    width: 100%;
+    height: 110px;
+}
+
+.secciones_reporte fieldset legend span img{
+    width: 55px; 
+    height: auto;
+    margin-left: 10px;
+}
+
+.semaforo_seccion{
+    margin-left: 30px!important;
+}
+
+.fieldset-title{
+    color: black;
+    font-size: 24px;
+    font-weight: 600!important;
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+legend{
+    margin-bottom: -10px!important;
+}
+
+.fieldset-wrapper{
+    width: 98%;
+    margin-left: 13px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: inherit;
+    border-left: 2px solid #f3f3f3;
+    border-right: 2px solid #f3f3f3;
+    border-bottom: 2px solid #f3f3f3;
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+
