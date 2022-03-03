@@ -1,240 +1,342 @@
-.header_background{
-    /* background-image: url(https://pruebasbeta.globalgbc.com/sites/default/files/banner_1.png); */
-    display: flex;
-    height: 220px;
-}
+/****************************************** Estilos de .reporte    *************************************************/
+   .header_background{
+        /* background-image: url(https://pruebasbeta.globalgbc.com/sites/default/files/banner_1.png); */
+        display: flex;
+        height: 220px;
+    }
 
-body{
-    font-family: 'Montserrat'!important;
-    background-image: url(https://pruebasbeta.globalgbc.com/sites/default/files/banner_4.png);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center top;
-}
+    @font-face {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../fonts/montserrat-v23-latin-regular.eot'); /* IE9 Compat Modes */
+        src: local(''),
+             url('../fonts/montserrat-v23-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+             url('../fonts/montserrat-v23-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+             url('../fonts/montserrat-v23-latin-regular.woff') format('woff'), /* Modern Browsers */
+             url('../fonts/montserrat-v23-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+             url('../fonts/montserrat-v23-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+      }
 
-.col-sm-12{
-    padding-right: 0px!important;
-    padding-left: 0px!important;
-}
+    body{
+        font-family:'Montserrat'!important;
+        background-image: url(https://pruebasbeta.globalgbc.com/sites/default/files/banner_4.png);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center top;
+    }
 
-h1{
-    font-size: 30px;
-    color: #333
-}
+    .col-sm-12{
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
 
-h2{
-    color: #4a93ff!important;
-    font-size: 18px!important;
-}
+    h1{
+        font-size: 30px;
+        color: #333
+    }
 
-h5{
-    font-size: 20px!important;
-    font-weight: bold!important;
-    text-rendering: optimizelegibility!important;
-}
+    h2{
+        color: #4a93ff!important;
+        font-size: 18px!important;
+        font-weight: bold!important;
+    }
 
-.rojo{
-    color: #f00;
-}
+    h5{
+        font-size: 20px!important;
+        font-weight: bold!important;
+        text-rendering: optimizelegibility!important;
+    }
 
-.amarillo{
-    color: #eadb00;
-}
+    .rojo{
+        color: #f00;
+    }
 
-.verde{
-    color: #008000;
-}
+    .amarillo{
+        color: #eadb00;
+    }
 
-.azul{
-    color: #007bf0;
-}
+    .verde{
+        color: #008000;
+    }
 
-button{
-    color: white;
-    font-weight: 700;
-    background: rgba(74,147,272,1);
-    border: 1px solid #000000!important;
-    border-radius: 4px;
-    padding: 6px 12px;
-    font-weight: normal;
-    font-size: 12px;
-    padding: 10px 20px;
-}
-
-.boton_pdf{
-    padding-right: 10%;
-    color: white;
-    font-weight: bold;
-}
-
-.title{
-    background-color:  rgb(255, 255, 255, .8);
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 10%;
-    margin-top: 6%;
-    width: 80%;
-}
-
-.title h1{
-    font-size: 27px;
-    font-weight: bold!important;
-}
-
-.reporte{
-    flex: auto;
-    padding-left: 8%;
-}
-
-.logo_img{
-    max-width: 85px;
-    margin-bottom: 15px;
-}
-
-.vin, .logo{
-    text-align: center;
-}
-
-.resumen, .datos_reporte{
-    width: 80%!important;
-    margin-left: 10%;
-}
-
-.resumen_der{
-    background-color: #f9f9f9;
-    height: 560px;
-    padding: 20px 3% 0px 3%!important;
-    font-size: 16px!important;
-    word-spacing: 3px!important;
-    font-weight: 300;
-}
-
-.resumen_izq{
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-.datos_vehiculo{
-    border-bottom: 1px solid #e2e2e2;
-}
-
-.datos_reporte{
-    background-color: #f9f9f9;
-    border-top: 1px solid #e2e2e2;
-    height: 125px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.valor{
-    padding: 26px;
-    min-height: 150px;
-    max-height: 200px;
-}
-
-.semaforos_izq, .semaforos_der{
-    padding-top: 30px;
-}
-
-.semaforos_izq table tr td, .semaforos_der table tr td {
-    padding: 7px;
-    border-top: inherit;
-}
-.texto_resumen{
-    margin-top: 0px!important;
-    margin-bottom: 3px!important;
-}
-
-.semaforos_izq table tr td img, .semaforos_der table tr td img{
-    max-width: 100%;
-}
-
-.semaforos{
-    height: 393px;
-}
-
-.icono_resumen{
-    width: 60px!important;
-}
-
-.resumen_bloque{
-    margin-bottom: 15px;
-}
-
-.resumen_der h2, .resumen_der center{
-    text-align: center;
-    margin-bottom: 22px;
-}
+    .azul{
+        color: #007bf0;
+    }
 
 
-.resumen_der p{
-    text-align: justify;
-    margin-bottom: 32px!important;
-}
+    button{
+        color: white;
+        font-weight: 700;
+        background: rgba(74,147,272,1);
+        border: 1px solid #000000!important;
+        border-radius: 4px;
+        padding: 6px 12px;
+        font-weight: normal;
+        font-size: 12px;
+        padding: 10px 20px;
+    }
 
-.riesgos{
-    text-align: left!important;
-}
+    .boton_pdf{
+        padding-right: 10%;
+        color: white;
+        font-weight: bold;
+    }
 
-.vin .valor h3{
-    font-size: 24px;
-    font-weight: bold;
-}
+    .title{
+        background-color:  rgb(255, 255, 255, .8);
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 10%;
+        margin-top: 6%;
+        width: 80%;
+    }
 
-.secciones_reporte{
-    margin-top: 30px;
-    width: 85%!important;
-    margin-left: 7%!important;
-    margin-bottom: 40px;
-}
+    .title h1{
+        font-size: 27px;
+        font-weight: bold!important;
+    }
 
-.secciones_reporte fieldset legend{
-    background-image: url(https://pruebasbeta.globalgbc.com/sites/default/files/fieldset_header.png);
-    background-color: inherit;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border: inherit;
-    width: 100%;
-    height: 110px;
-}
+    .reporte{
+        flex: auto;
+        padding-left: 8%;
+    }
 
-.secciones_reporte fieldset legend span img{
-    width: 55px; 
-    height: auto;
-    margin-left: 10px;
-}
+    .logo_img{
+        max-width: 85px;
+        margin-bottom: 15px;
+    }
 
-.semaforo_seccion{
-    margin-left: 30px!important;
-}
+    .vin, .logo{
+        text-align: center;
+    }
 
-.fieldset-title{
-    color: black;
-    font-size: 24px;
-    font-weight: 600!important;
-    display: inline-block;
-    position: relative;
-    top: 15px;
-    left: 15px;
-}
+    .resumen, .datos_reporte{
+        width: 80%!important;
+        margin-left: 10%;
+    }
 
-legend{
-    margin-bottom: -10px!important;
-}
+    .resumen_der{
+        background-color: #f9f9f9;
+        height: 560px;
+        padding: 20px 3% 0px 3%!important;
+        font-size: 16px!important;
+        word-spacing: 3px!important;
+        font-weight: 300;
+    }
 
-.fieldset-wrapper{
-    width: 98%;
-    margin-left: 13px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-top: inherit;
-    border-left: 2px solid #f3f3f3;
-    border-right: 2px solid #f3f3f3;
-    border-bottom: 2px solid #f3f3f3;
-    border-bottom-right-radius: 22px;
-    border-bottom-left-radius: 22px;
-}
+    .resumen_izq{
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .datos_vehiculo{
+        border-bottom: 1px solid #e2e2e2;
+    }
+
+    .datos_reporte{
+        background-color: #f9f9f9;
+        border-top: 1px solid #e2e2e2;
+        height: 125px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .valor{
+        padding: 26px;
+        min-height: 150px;
+        max-height: 200px;
+    }
+
+    .semaforos_izq, .semaforos_der{
+        padding-top: 30px;
+    }
+
+    .semaforos_izq table tr td, .semaforos_der table tr td {
+        padding: 7px;
+        border-top: inherit;
+    }
+    .texto_resumen{
+        margin-top: 0px!important;
+        margin-bottom: 3px!important;
+    }
+
+    .semaforos_izq table tr td img, .semaforos_der table tr td img{
+        max-width: 100%;
+    }
+
+    .semaforos{
+        height: 393px;
+    }
+
+    .icono_resumen{
+        width: 60px!important;
+    }
+
+    .resumen_bloque{
+        margin-bottom: 15px;
+    }
+
+    .resumen_der h2, .resumen_der center{
+        text-align: center;
+        margin-bottom: 22px;
+    }
+
+
+    .resumen_der p{
+        text-align: justify;
+        margin-bottom: 32px!important;
+    }
+
+    .riesgos{
+        text-align: left!important;
+    }
+
+    .vin .valor h3{
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .secciones_reporte{
+
+        width: 80%!important;
+        margin-left: 10%!important;
+        margin-bottom: 40px;
+    }
+
+    .secciones_reporte fieldset legend{
+        background-image: url(https://pruebasbeta.globalgbc.com/sites/default/files/fieldset_header.png);
+        background-color: inherit;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: inherit;
+        width: 100%;
+        height: 104px;
+    }
+
+    .secciones_reporte fieldset legend span img{
+        width: 55px; 
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .semaforo_seccion{
+        margin-left: 30px!important;
+    }
+
+    .fieldset-title{
+        color: black;
+        font-size: 24px;
+        font-weight: bold!important;
+        display: inline-block;
+        position: relative;
+        top: 15px;
+        left: 15px;
+    }
+
+    fieldset{
+        margin-top: 30px!important;
+    }
+
+    legend{
+        margin-bottom: -10px!important;
+    }
+
+    fieldset .fieldset-wrapper{
+        width: 98%;
+        margin-left: 13px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-top: inherit;
+        border-left: 2px solid #f3f3f3;
+        border-right: 2px solid #f3f3f3;
+        border-bottom: 2px solid #f3f3f3;
+        border-bottom-right-radius: 22px;
+        border-bottom-left-radius: 22px;
+        padding: 0px 10px 30px 30px;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    table.tabla tr:nth-child(even){
+        background-color: rgb(249 249 249 / 80%);
+    }
+
+    table.tabla .campo td.etiqueta, table.tabla .campo td.valor_campo{
+        border-bottom: 1px solid #CED2DA;
+        padding: 15px 15px;
+        width: 50%;
+    }
+
+    table.tabla tr td.valor_campo{
+        /* border-bottom: 1px solid #CED2DA; */
+        padding: 16px 10px 15px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    table.tabla tr.head{
+        vertical-align: middle;
+        border-color: inherit;
+        height: 37px;
+        border: 1px solid rgba(148, 141, 141, 0.15);
+        background-color: rgb(239, 239, 239)
+    }
+
+    .valor_campo .amarillo{
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    table.tabla tr th{
+        text-align: center;
+        padding: 16px 10px;
+        font-size: 12px;
+    }
+
+    .repuve_vehiculo, .repuve_admin{
+        padding: 0% 6% 0% 6%!important;
+        margin-top: 4%;
+    }
+
+    .rug, .pedimentos{
+        padding: 0% 2% 0% 2%!important;
+        margin-top: 4%;
+    }
+
+    .tabla_repuve_placa, .tabla_info_emplacado{
+        padding: 15px;
+        border-radius: 21px;
+        border: 6px solid #e8e8e5;
+        margin: 20px;
+        width: auto;
+    }
+
+    .informacion_emplacado, .tenencias, .verificacion, .uso_vehicular{
+        margin-bottom: 5%;
+    }
+
+    .numero_placa{
+        background-color: #f5f5f5;
+        padding: 19px;
+        margin-bottom: 20px;
+    }
+
+
+/********************************* comportamiento interactivo ***************************/
+
+    .semaforos_izq, .semaforos_der{
+        opacity: 0.5;
+    }
+
+    .semaforos_izq:hover, .semaforos_der:hover{
+        opacity: 1;
+    }
+
+
 
