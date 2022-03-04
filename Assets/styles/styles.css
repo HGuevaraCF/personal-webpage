@@ -5,18 +5,12 @@
         height: 220px;
     }
 
-    @font-face {
+    /* @font-face {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
         src: url('../fonts/montserrat-v23-latin-regular.eot'); /* IE9 Compat Modes */
-        src: local(''),
-             url('../fonts/montserrat-v23-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-             url('../fonts/montserrat-v23-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-             url('../fonts/montserrat-v23-latin-regular.woff') format('woff'), /* Modern Browsers */
-             url('../fonts/montserrat-v23-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-             url('../fonts/montserrat-v23-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
-      }
+      } */
 
     body{
         font-family:'Montserrat'!important;
@@ -326,6 +320,37 @@
         padding: 19px;
         margin-bottom: 20px;
     }
+
+    div.numero_placa div h2.placa{
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 240px;
+        height: 88px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        border: 3px solid #4a93ff;
+        margin: 25px auto;
+        vertical-align: middle;
+        display: table-cell;
+        box-shadow: 5px 5px 7px 0px #d4d3d3;
+    }
+
+    div.numero_placa div h2.num_placa{
+        font-size: 18px;
+        color: #4a93ff;
+        font-weight: 600;
+    }
+
+    div.numero_placa div h2.placa span{
+        color: #4a93ff;
+        letter-spacing: 3px;
+        font-size: 30px;
+    }
+
+    /* .table_responsive{
+        overflow-x: auto;
+    } */
 
 
 /********************************* comportamiento interactivo ***************************/
